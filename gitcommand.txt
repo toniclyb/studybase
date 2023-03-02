@@ -4,7 +4,9 @@
 4.查看git 状态：git status
 5.分支合并：1.切换到主分支，git checkout master 2.合并对应的分支名：git merge 分支名
 6.删除分支： git branch -d 分支名 ，在合并到master或者不需要此分支时进行处理
-7.提交代码到github：git push ,注意：如果报Failed to connect to github.com port 443 ，需要变更host 做ip和域名绑定
+7.提交代码到github：git push origin master;
+ 1.如果报Failed to connect to github.com port 443 ，需要变更host 做ip和域名绑定
+
 8.取消变更：git restore 文件名
 9.提交变更记录：git commit -master
 10.查看日志：git log
