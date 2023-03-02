@@ -11,3 +11,5 @@ git add . 把该目录下的所有文件添加到仓库
 9.提交变更记录：git commit -master
 10.查看日志：git log
 11.提交代码顺序：1.先add 2.再提交commit 3.再push
+12.强制关联数据：git pull --allow-unrelated-histories ; git push --allow-unrelated-histories
+13.git官方手册：https://training.github.com/downloads/zh_CN/github-git-cheat-sheet/
