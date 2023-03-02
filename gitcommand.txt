@@ -1,12 +1,13 @@
 1.新建分支 git checkout 分支名 or git branch 分支名
 2.切换到分支：新建分支侯，适用git checkout 分支名 
 3.添加文件或者修改后，使用git 监控文件变动：git add  文件名 or git commit -a
+git add . 把该目录下的所有文件添加到仓库
 4.查看git 状态：git status
 5.分支合并：1.切换到主分支，git checkout master 2.合并对应的分支名：git merge 分支名
 6.删除分支： git branch -d 分支名 ，在合并到master或者不需要此分支时进行处理
 7.提交代码到github：git push origin master;
  1.如果报Failed to connect to github.com port 443 ，需要变更host 做ip和域名绑定
-
 8.取消变更：git restore 文件名
 9.提交变更记录：git commit -master
 10.查看日志：git log
+11.提交代码顺序：1.先add 2.再提交commit 3.再push
